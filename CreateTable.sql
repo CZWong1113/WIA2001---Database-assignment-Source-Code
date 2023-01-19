@@ -68,6 +68,7 @@ CREATE TABLE SUPPLIER_ORDER (
 --CREATE TABLE RECEIPT_PRODUCT:
 CREATE TABLE RECEIPT_PRODUCT (
     reference_no VARCHAR(10),
+    receipt_id VARCHAR2(10),
     product_id VARCHAR2(10),
     product_quantity NUMBER
 );
@@ -101,8 +102,7 @@ CREATE TABLE RECEIPT (
     employee_id VARCHAR2(10),
     member_id VARCHAR2(10),
     total_price NUMBER,
-    payment_id VARCHAR2(10),
-    reference_no VARCHAR2(10)
+    payment_id VARCHAR2(10)
 );
 
 --CREATE TABLE SALES:
