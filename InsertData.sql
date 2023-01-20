@@ -61,7 +61,7 @@ select * from person_in_charge;
 
 --INSERT DATA INTO TABLE SUPPLIER:
 INSERT INTO SUPPLIER VALUES ('775', '1111', 'PNG Fruit', 'No 2,Jalan Abdullah, Taman Abdullah, 40000Klang, Selangor', 60137706650);
-INSERT INTO SUPPLIER VALUES ('776', '1112', 'PNG Fruit', 'No 2,Jalan Abdullah, Taman Abdullah, 40000Klang, Selangor', 60137706650);
+INSERT INTO SUPPLIER VALUES ('776', '1112', 'Tropicana Fruit', 'No 232,Jalan Austin Mount, Taman Austin, 40000Klang, Selangor', 60137706651);
 INSERT INTO SUPPLIER VALUES ('777', '1113', 'Tissue-tech Inc.', 'No 23,Jalan Bijak, Taman Bijak, 40000Klang, Selangor', 60137706652);
 INSERT INTO SUPPLIER VALUES ('778', '1114', 'Eggland', 'No 2,Jalan Nagasari, Taman Nagasari, 40000Klang, Selangor', 60137706653);
 INSERT INTO SUPPLIER VALUES ('779', '1115', 'Creamy Delights Ice', 'No 44,Jalan Putra, Taman Putra, 40000Klang, Selangor', 60137706654);
@@ -162,7 +162,7 @@ INSERT INTO RECEIPT_PRODUCT VALUES ('25', '767', '1780', 6);
 select * from receipt_product;
 
 --INSERT DATA INTO TABLE MEMBER_TYPE:
-INSERT INTO MEMBER_TYPE VALUES ('standard', 5);
+INSERT INTO MEMBER_TYPE VALUES ('standard', 0);
 INSERT INTO MEMBER_TYPE VALUES ('premium', 10);
 INSERT INTO MEMBER_TYPE VALUES ('diamond', 20);
 select * from member_type;
